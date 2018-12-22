@@ -49,6 +49,10 @@
 
 }
 
+.portfolioSection {
+    background-color: white;
+    color: black;
+}
 .skill {
     text-align: center;
     margin-left: 10px;
@@ -96,7 +100,8 @@
 
 }
 
-.skillsSection {
+.skillsSection
+{
 
     background-color: #e74c3c;
     color: white;
@@ -121,4 +126,67 @@
 
 .chart .percent:after {
     content: "%"
+}
+
+
+.contactButton {
+    color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 24px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+
+.contactButton:hover {
+    text-decoration: none;
+    color: #e74c3c;
+}
+
+
+
+.portfolioSection li {
+    
+    font-size: 20px;
+
+}
+
+
+
+.portfolioSection ul {
+    font-size: 10px;
+}
+.filter a {
+    color: #bdc3c7;
+    border: 1px solid #bdc3c7;
+    padding: 10px 18px;
+    display: block;
+    text-decoration: none;
+}
+
+.filter li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.filter .current {
+    background-color: #e73c3c;
+    border-color: #e73c3c;
+    color: #fff;
+}
+
+
+.filter {
+    text-align: center;
+    width: 100%
+
+}
+
+
+.section .heading {
+    text-align: center;
+    padding-bottom: 40px;
+    width: 100%;
 }
